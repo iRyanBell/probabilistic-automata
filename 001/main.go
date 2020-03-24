@@ -108,7 +108,7 @@ func Init() {
 func main() {
 	Init()
 
-	err := ebiten.Run(update, WIDTH, HEIGHT, SCALE, "Probabilistic Automata")
+	err := ebiten.Run(update, WIDTH, HEIGHT, SCALE, "PA001")
 	if err != nil {
 		fmt.Println(err)
 	}

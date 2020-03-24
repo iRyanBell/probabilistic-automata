@@ -111,7 +111,7 @@ func initialize() {
 func main() {
 	initialize()
 
-	err := ebiten.Run(update, WIDTH, HEIGHT, SCALE, "AT001")
+	err := ebiten.Run(update, WIDTH, HEIGHT, SCALE, "PA002")
 	if err != nil {
 		fmt.Println(err)
 	}
